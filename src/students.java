@@ -7,6 +7,17 @@ public class students {
     private String last_name;
     private int group_id;
 
+    public students(int id, String first_name, String last_name, int group_id) {
+        this.id = id;
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.group_id = group_id;
+    }
+
+    public students() {
+
+    }
+
     public int getId() {
         return id;
     }
